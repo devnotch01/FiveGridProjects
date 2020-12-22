@@ -126,6 +126,8 @@ main p {
     grid-template-columns: 1fr;
     grid-column-gap: 0;
     grid-row-gap: 1rem;
+    /*Or use the following method*/
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));   */
   }
 }
 
